@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex{
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* Nav bar section start */
+nav{
+    background-color: #0d1b2a;
+}
+.nav-bar{
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: rgb(228, 30, 96);
+    transition: 0.8s ease-out ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+/* background */
+.background-section{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.h1-div{
+    padding: 40px;
+    /* background-color: aqua; */
+}
+.h1-div h1{
+    color: black;
+}
+.para1{
+    height: 130px;
+    flex-direction: column;
+    background-color: #001c55;
+    padding: 30px;
+    /* border-radius: 50px 50px 0px 0px; */
+}
+.para1 h1{
+    margin-bottom: 20px;
+}
+.para1 p{
+    font-size: 25px;
+    /* color: black; */
+    
+}
+.outer-para{
+    padding: 30px;
+    height: 450px;
+    width: 100%;
+    background-color: #023e8a;
+    flex-direction: column;
+    border-radius: 0px 0px 50px 50px;
+}
+.main-ul{
+    margin-top: 20px;
+}
+.main-ul li{
+    /* color: black; */
+    list-style: none;
+}
+ul .li1{
+    font-size: 25px;
+}
+.inside-div-2{
+    margin-top: 20px;
+}
+.inside-div-2 ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+ @media screen and (800px <=width <=1200px){
+    .flex{
+        max-width: 700px;
+    }
+    .nav-bar{
+        height: 50px;
+    }
+    .flex{
+        max-width: 400px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    .nav-links ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+    }
+ }
+
+ @media screen and (400px <=width <=800px){
+    .flex{
+        max-width: 700px;
+    }
+    .bg-center h1{
+        font-size: 15px;
+    }
+    .nav-bar{
+        height: 50px;
+    }
+    .flex{
+        max-width: 400px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    .nav-links ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+    }
+ }
+
